@@ -1,7 +1,9 @@
+import LoginSignUp from "./presentation/auth/LoginSignUp";
+
 function App() {
   return (
     <div>
-      Ralph Maron Eda is here
+      <LoginSignUp />
     </div>
   );
 }
