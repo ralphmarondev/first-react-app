@@ -6,6 +6,7 @@
     margin-top: 200px;
     background: #fff;
     padding-bottom: 30px;
+    border-radius: 15px;
 }
 
 .header {
@@ -19,19 +20,19 @@
 
 .text {
     color: #3C009D;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 700;
 }
 
 .underline {
     width: 61px;
-    height: 6px;
+    height: 3px;
     background: #3C009D;
     border-radius: 9px;
 }
 
 .inputs {
-    margin-top: 55px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -42,7 +43,7 @@
     align-items: center;
     margin: auto;
     width: 480px;
-    height: 80px;
+    height: 60px;
     background: #EAEAEA;
     border-radius: 6px;
 }
@@ -52,20 +53,21 @@
 }
 
 .input input {
-    height: 50px;
+    height: 20px;
     width: 400px;
     background: transparent;
     border: none;
     outline: none;
     color: #797979;
     font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .forgot-password {
     padding-left: 62px;
     margin-top: 27px;
     color: #797979;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .forgot-password span {
@@ -76,7 +78,7 @@
 .submit-container {
     display: flex;
     gap: 30px;
-    margin: 60px auto;
+    margin: 30px auto 5px;
 }
 
 .submit {
@@ -84,11 +86,11 @@
     justify-content: center;
     align-items: center;
     width: 220px;
-    height: 59px;
+    height: 50px;
     color: #fff;
     background: #4C00B4;
     border-radius: 50px;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 700;
     cursor: pointer;
 }
